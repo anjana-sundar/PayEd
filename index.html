@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AnnaPay Payroll Notification Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="main">
+        <h1>AnnaPay Payroll Notification Simulator</h1>
+
+        <div class="section">
+            <h2>Add Employee</h2>
+            <input type="text" id="empId" placeholder="Employee ID">
+            <input type="text" id="empName" placeholder="Name">
+            <input type="number" id="empSalary" placeholder="Basic Salary">
+            <input type="number" id="empDeduction" placeholder="Deductions">
+            <input type="text" id="empBank" placeholder="Bank Account">
+            <button onclick="addEmployee()">Add Employee</button>
+        </div>
+
+        <div class="section">
+            <h2>Upload Attendance (CSV)</h2>
+            <input type="file" id="attendanceFile" accept=".csv">
+            <button onclick="uploadAttendance()">Upload Attendance</button>
+        </div>
+
+        <div class="section">
+            <h2>Run Payroll</h2>
+            <button onclick="generatePayroll()">Generate Payroll</button>
+        </div>
+    </div>
+
+    <div class="notifications">
+        <h2>🔔 Notifications</h2>
+        <div id="notificationPanel"></div>
+    </div>
+</div>
+
+<script src="notification.js"></script>
+<script src="employee.js"></script>
+<script src="payroll.js"></script>
+</body>
+</html>
