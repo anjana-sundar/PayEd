@@ -1,9 +1,9 @@
-# AnnaPay Payroll Notification Simulation
-AnnaPay - Payroll Notification System
+# PayEd Payroll Notification Simulation
+PayEd - Payroll Notification System
 Agile | Sprint Zero | User Stories + Test Cases + Team Division
 
 ## What This Is
-This is a simulated payroll notification system demonstrating edge-case handling and workflow validation for AnnaPay.
+This is a simulated payroll notification system demonstrating edge-case handling and workflow validation for PayEd.
 
 ## What It Simulates
 - Employee data validation
@@ -39,9 +39,9 @@ How will we build & test incrementally?
 
 ---
 
-## Product Vision (AnnaPay - Notification-Centric)
+## Product Vision (PayEd - Notification-Centric)
 
-> AnnaPay is a college payroll system that ensures error-free salary processing by detecting edge cases early and notifying the right stakeholders at the right time.
+> PayEd is a college payroll system that ensures error-free salary processing by detecting edge cases early and notifying the right stakeholders at the right time.
 
 ---
 
@@ -199,4 +199,4 @@ TC-7.1	Unauthorized user	       Security alert
 
 
 One-Line Explanation 
-> "In AnnaPay, Sprint Zero focuses on identifying payroll edge cases, defining notification-driven user stories, mapping test cases early, and dividing responsibilities clearly across BA, Scrum Master, Developer, and Tester using Agile"
+In PayEd, Sprint Zero focuses on identifying payroll edge cases, defining notification-driven user stories, mapping test cases early, and dividing responsibilities clearly across BA, Scrum Master, Developer, and Tester using Agile.
